@@ -1,4 +1,11 @@
 """
+LEGACY EXPERIMENT — DO NOT USE AS THE VALIDATED PUBLIC PIPELINE.
+
+The executable audit in ``solution_audit.py`` demonstrates chronological target
+leakage and cross-route rolling contamination in this historical hackathon
+attempt. It is retained for transparent comparison and learning. Use
+``parallel_ensemble.py`` for the leakage-safe implementation.
+
 Хакатон: прогнозирование отгрузок со складов маркетплейса.
 Ансамбль из 6 LightGBM-моделей (DRFAM-подход, победитель M5).
 
